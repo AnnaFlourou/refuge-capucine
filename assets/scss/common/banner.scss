@@ -1,0 +1,37 @@
+.phrase-banner {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin: 70px 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 11px 18px 73px -8px rgba(138,136,138,0.91);
+    -moz-box-shadow: 11px 18px 73px -8px rgba(138,136,138,0.91);
+    box-shadow: 11px 18px 73px -8px rgba(138,136,138,0.91);
+
+    .phrase {
+        width: 80%;
+        padding: 130px 50px;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: bolder;
+      
+        .text {
+            padding-bottom: 25px;
+            line-height: 43px;
+            text-shadow: -1px 0 rgb(87, 85, 85), 0 1px rgb(87, 85, 85), 1px 0 rgb(87, 85, 85), 0 -1px rgb(87, 85, 85);
+        }
+        .author{
+            background-color: #fff;
+            padding: 0 10px;
+            border-radius: 4px;
+            color: $blue;
+            width: fit-content;
+            span {
+                color: $dark_yellow;
+                font-size: 43px;
+            }
+        }
+    }
+    
+}
